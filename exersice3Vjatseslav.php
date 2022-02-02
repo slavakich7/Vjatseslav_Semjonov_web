@@ -68,30 +68,6 @@ else {
 }
 
 ?>
-<h2>Task 5</h2>
-<?php
-#part1 = 'Vjatšeslav "
-#Parse error: syntax error, unexpected token "=" in /var/www/html/exercise2.php on line 37
-?>
-<h2>Task 6</h2>
-<?php
-echo "\" It is Markku's car.\"<br />", 'Random characters: del c:\*.* "'
-?>
-<h2>Task 7</h2>
-<?php
-$x = 298;
-$y = 234;
-$z = 46;
-echo "The sum of x, y and z is : ". ($x+$y+$z) ."<br />";
-?>
-<h2>Task 8</h2>
-<?php
-$a = 87;
-$b = 44;
-$c = 200;
-$d = 15;
-$e = 10;
-echo "(87 + 44)+(200 * 15) / 10 = ". (($a + $b)+($c * $d) / $e) ."<br />";
-?>
+
 </body>
 </html>
