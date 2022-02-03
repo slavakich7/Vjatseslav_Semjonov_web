@@ -57,17 +57,46 @@ switch ($x) {
 }
 ?>
 <h2>Task 4</h2>
-<form action="site.php" method="get">
+<form action="exersice3Vjatseslav.php" method="get">
+    Age: <input type="number" name="age">
+    <input type="submit">
+</form>
 <?php
-$a = (int)readline('Enter your age: ');
-if ($a >= 18){
+$_GET["age"];
+
+if ($_GET["age"] >= 18){
     echo "You are eligible for voting.  <br>";
 }
-else {
+if ($_GET["age"] < 18){
     echo "You aren't eligible for voting. <br>";
 }
-
 ?>
-
+<h2>Task 5</h2>
+<?php
+$n=8;
+for($i=$n; $i>=1; $i--)
+{
+for($j=1; $j<=$i; $j++)
+{
+echo "$j";
+}
+ echo "</br>";
+}
+?>
+<h2>Task 6</h2>
+<?php
+for($x=1;$x<=8;$x++)
+{
+   for ($y=1;$y<=$x;$y++)
+    {
+	 echo "*";
+	    if($y< $x)
+		 {
+		   echo " ";
+		 }
+     }
+ echo "</br>";
+}
+?>
 </body>
 </html>
