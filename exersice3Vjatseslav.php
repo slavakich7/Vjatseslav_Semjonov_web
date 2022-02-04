@@ -98,5 +98,8 @@ for($x=1;$x<=8;$x++)
  echo "</br>";
 }
 ?>
+<h2>Task 7</h2>
+<a href="https://slavakich7.github.io/project/">Website page</a>
+<a href="https://github.com/slavakich7/project">Repository link</a>	
 </body>
 </html>
